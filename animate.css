@@ -1,0 +1,29 @@
+ /* CSS for swipe animations */
+ .swipe-up, .swipe-up-big,.swipe-down, .swipe-down-big, .swipe-right, .swipe-left, .swipe-right-big, .swipe-left-big{
+    opacity: 0;
+    transition: opacity 0.5s ease-out, transform 0.75s ease-out;
+ }
+ .swipe-up {
+     transform: translateY(40px);
+      }
+    .swipe-up-big {
+        transform: translateY(300px);
+      }
+    .swipe-down {
+        transform: translateY(-40px);
+      }
+    .swipe-down-big {
+        transform: translateY(-150px);
+      }
+    .swipe-right {
+        transform: translateX(-40px);
+      }
+    .swipe-left {
+        transform: translateX(40px);
+      }
+    .swipe-left-big{
+        transform: translateX(100px);
+    }
+    .swipe-right-big{
+        transform: translateX(-100px);
+    }
